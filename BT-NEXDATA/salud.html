@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salud</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px; /* Distancia desde el fondo */
+            right: 20px; /* Distancia desde la derecha */
+            width: 60px; /* Ancho del ícono */
+            height: 60px; /* Alto del ícono */
+            background-color: #25D366; /* Color de fondo de WhatsApp */
+            border-radius: 50%; /* Bordes redondeados */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+            z-index: 1000; /* Asegura que esté por encima de otros elementos */
+        }
+        .whatsapp-float img {
+            width: 40px; /* Ancho de la imagen del ícono */
+            height: 40px; /* Alto de la imagen del ícono */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Espacia el contenido */
+        }
+        footer {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .social-icons li {
+            margin: 0 10px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #aaa;
+            font-size: 24px;
+        }
+        .social-icons a:hover {
+            color: #00E6E6;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+        /* Fondo oscuro */
+        body, .navbar, .footer, header {
+            background-color: #000;
+            color: #aaa; /* Color de texto principal */
+        }
+        
+        /* Color de los links */
+        a.nav-link, a.card-link, .card-title, .text-primary {
+            color: #00E6E6 !important;
+        }
+        /* Estilos para los títulos */
+        h2, h3, .card-title {
+            color: #00E6E6;
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid py-3">
+        <div class="d-flex align-items-center">
+            <!-- Logo adaptable -->
+            <img src="IMG/LOGO-NEX-DATA.jpeg" alt="NEX DATA" class="img-fluid" style="max-width: 200px;">
+            
+            <!-- Menú de navegación -->
+            <nav class="navbar navbar-expand-lg navbar-dark ml-auto">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Menu</a></li>
+                        <li class="nav-item"><a href="Servicios.html" class="nav-link">Servicios</a></li>
+                        <li class="nav-item"><a href="Nuestras-Experiencia.html" class="nav-link">Nuestras experiencia</a></li>
+                        <li class="nav-item"><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                        <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow-1 text-center">
+        <img src="IMG/g2.jpeg" alt="Pfizer" class="img-fluid" style="width: 80%; max-height: 400px; object-fit: cover; margin: 0 auto;">
+        <h2 class="text-center">Pfizer</h2>
+        <p class="text-center">"Asegura la privacidad y seguridad de los datos médicos y farmacéuticos con NexOS Health, diseñado para cumplir con las regulaciones más estrictas de la industria de la salud."</p>
+    </main>
+    
+
+    <a href="https://wa.me/59176080231" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NEX DATA - Todos los derechos reservados</p>
+            <p>NEX DATA</p>
+            <p>Impulsa tu empresa con sistemas personalizados. Diseñamos soluciones que optimizan tus procesos.</p>
+            <p>Email: contacto@nexdata.com</p>
+            <p>Teléfono: +591 76080231</p>
+            <p>Dirección: Centro Empresarial Equipetrol Torre Alas Piso 7, Santa Cruz, Bolivia</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/xnexdatax?mibextid=ZbWKwL" target="_blank"><img src="IMG/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/xnexdatax/profilecard/?igsh=MTZ4cHlmdGYwNW5kdw==" target="_blank"><img src="IMG/inst.png" alt="Instagram"></a></li>
+                <li><a href="https://www.tiktok.com/@nex.data4?_t=8qXKB9g5f9R&_r=1" target="_blank"><img src="IMG/tik.png" alt="TikTok"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
